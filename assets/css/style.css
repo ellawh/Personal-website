@@ -1,0 +1,219 @@
+body{
+    position: relative;
+}
+
+p{
+    line-height: 1.5;
+}
+.container{
+    max-width: 960px;
+    margin: 3%;
+    position: relative;
+  
+  }
+
+.aboutCNT .profileCNT {
+    padding: 30px;
+    text-align: center;
+}
+
+.aboutCNT .name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 10px;    
+}
+
+.aboutCNT .tagline {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;   
+}
+
+.aboutCNT .profile {
+    margin-bottom: 15px;
+}
+
+.aboutCNT .contact-list {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+i {
+    margin-right: 10px;
+}
+
+.aboutCNT .who {
+    padding: 30px;
+}
+.aboutCNT{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.resumeCNT {
+    margin-bottom: 15px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.experience-section .item {
+    margin-bottom: 30px
+}
+.upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+.title {
+    color: #3F4650;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.time-frame {
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #97AAC3;
+}
+
+.company {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.details {
+    font-size: 12px;
+}
+
+.details p {
+    text-align: center;
+}
+.details button {
+   margin: 5px;
+   font-size: 12px;
+}
+
+.skillset{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skillset .item {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.skillset .lvl-title {
+    font-size: 11px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+}
+.skillset .lvl-bar {
+    height: 12px;
+    border-radius: 5px;
+}
+
+span.anchor {
+    margin-top: -80px; 
+    display: block;
+    height: 80px; 
+    visibility: hidden;
+    position: relative;
+}
+@media (max-width: 767px) {
+    .resumeCNT {
+      padding: 30px;
+    }
+  
+    .aboutCNT{
+        margin-top: 70px;
+    }
+    .resumeCNT .time-frame {
+      position: static;
+      display: block;
+      margin-top: 5px;
+    }
+  
+    .resumeCNT .upper-row {
+      margin-bottom: 0;
+    }
+
+    .container-fluid{
+        text-align: center;
+    }
+
+    .aboutCNT .contact-list {
+        margin-bottom: 15px;
+        position: static;
+        display: block;
+        text-align: center;  
+    }
+
+
+}
+
+.projectCNT{
+    padding: 20px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projectCNT .project {
+    text-align: center;
+    font-weight: bold;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 990px) {
+    .skillset .lvl-title {
+      display: inline-block;
+      float: left;
+      width: 18%;
+      margin-bottom: 0;
+    }
+    
+}
+@media (max-width: 990px) {
+    .container-fluid{
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .container{
+        max-width: 600px;
+    }
+}
